@@ -1,0 +1,22 @@
+
+.no-margin-padding{
+  padding: 0px;
+  margin: 0px;
+}
+
+.vrata{
+  width:100%;
+  height: 50%;
+}
+
+.velky-block{
+  background-color:#D20001;
+}
+
+body{
+  background-color: #FFFFF5;
+}
+
+.popis{
+  padding: 10px;
+}
