@@ -2,22 +2,19 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Toja Design</title>
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
     <link rel="stylesheet" href="css/own.css">
   </head>
 
-
   <body class="container">
-      <nav id="navbar" onclick="yolo()" class="navbar navbar-inverse maly-nav">
+    <nav id="navbar" onclick="roll()" class="navbar navbar-inverse maly-nav">
       <div class="container-fluid">
         <div class="navbar-header">
           <a class="navbar-brand" href="#">Toja Design</a>
@@ -27,12 +24,14 @@
       </div>
     </nav>
 
-    <div onclick="zavrit()"class="no-margin-padding col-md-12">
+    <div class="no-margin-padding col-md-12">
 
-      <div class="velky-block no-margin-padding col-md-8">
+<div class="col-md-8 no-margin-padding">
+      <div data-toggle="modal" data-target="#myModal" class="velky-block no-margin-padding col-md-12">
         <div class="no-margin-padding col-md-12">
-            <img class="no-margin-padding vrata" src="vrata.png" alt="Vrata">
+          <img class="no-margin-padding vrata" src="vrata.png" alt="Vrata">
         </div>
+
         <div class="no-margin-padding col-md-12">
           <div class="text-center no-margin-padding col-md-6">
             <div>
@@ -46,8 +45,52 @@
         </div>
       </div>
 
+      <div data-toggle="modal" data-target="#myModal" class="velky-block no-margin-padding col-md-12 druhy-velky">
+        <div class="no-margin-padding col-md-12">
+          <img class="no-margin-padding vrata" src="vrata.png" alt="Vrata">
+        </div>
 
-      <div class="no-right-padding col-md-4">
+        <div class="no-margin-padding col-md-12">
+          <div class="text-center no-margin-padding col-md-6">
+            <div>
+              <h2>Vrata</h2>
+            </div>
+          </div>
+
+          <div class="text-justify no-margin-padding col-md-6">
+            <p class="popis">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sagittis hendrerit ante. Suspendisse sagittis ultrices augue. Etiam quis quam. Nulla accumsan, elit sit amet varius semper, nulla mauris mollis quam, tempor suscipit diam nulla vel leo. Vivamus luctus egestas leo. Aliquam erat volutpat. Suspendisse sagittis ultrices augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Integer malesuada.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<div class="col-md-4 no-right-padding no-margin-padding">
+
+
+      <div class="no-right-padding col-md-12">
+
+        <div class="maly-block no-margin-padding col-md-12">
+          <div class="no-margin-padding col-md-12">
+              <img class="stul" src="stul.png" alt="Motostul">
+          </div>
+
+          <div class="no-margin-padding col-md-12">
+            <div class="text-center col-md-12">
+              <div>
+                <h2>Motostůl</h2>
+              </div>
+            </div>
+
+            <div class="text-justify col-md-12">
+              <p class="popis">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="padding-top no-right-padding col-md-12">
 
         <div class="maly-block no-margin-padding col-md-12">
           <div class="no-margin-padding col-md-12">
@@ -70,22 +113,45 @@
       </div>
 
 
-      <div class="padding-top no-right-padding col-md-4">
 
-        <div class="maly-block no-margin-padding col-md-12">
-          <div class="no-margin-padding col-md-12">
-              <img class="stul" src="stul.png" alt="Motostul">
-          </div>
+</div>
 
-          <div class="no-margin-padding col-md-12">
-            <div class="text-center col-md-12">
-              <div>
-                <h2>Motostůl</h2>
-              </div>
+    </div>
+
+    <div>
+
+    <!-- Modal -->
+      <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Vrata</h4>
+            </div>
+            <div class="gallerie">
+
+<span>
+            <div class="col-md-1 sipka-div leva">
+              <img class="sipka" src="sipka.svg" alt="">
             </div>
 
-            <div class="text-justify col-md-12">
-              <p class="popis">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            <div class="col-md-10 modal-vrata text-center">
+              <img class="modal-vrata-png" src="vrata.png" alt="vrata">
+            </div>
+
+            <div class="col-md-1 sipka-div">
+              <img class="sipka" src="sipka.svg" alt="">
+            </div>
+
+            <div class="col-md-12 text-center">
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla pulvinar eleifend sem. Etiam quis quam. Nulla non lectus sed nisl molestie malesuada. </p>
+            </div>
+</span>
+                </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
           </div>
 
@@ -95,21 +161,27 @@
     </div>
 
 
+
 <script>
-function yolo() {
-  if (  $('#navbar').hasClass('maly-nav')) {
+
+function roll(){
+  if ( $('#navbar').hasClass('maly-nav')) {
     $('#navbar').addClass('velky-nav').removeClass('maly-nav');
   }else {
     $('#navbar').addClass('maly-nav').removeClass('velky-nav');
   }
-
 }
+</script>
+<script>
 
-function zavrit() {
-  if (  $('#navbar').hasClass('velky-nav')) {
-    $('#navbar').addClass('maly-nav').removeClass('velky-nav');
-  }
-}
+$(document).click(function(event) {
+    if(!$(event.target).closest('#navbar').length) {
+      if (  $('#navbar').hasClass('velky-nav')) {
+        $('#navbar').addClass('maly-nav').removeClass('velky-nav');
+        }
+    }
+})
+
 </script>
 
   </body>
