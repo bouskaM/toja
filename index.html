@@ -17,7 +17,7 @@
 
 
   <body class="container">
-      <nav id="navbar" onclick="yolo()" class="navbar navbar-inverse">
+      <nav id="navbar" onclick="yolo()" class="navbar navbar-inverse maly-nav">
       <div class="container-fluid">
         <div class="navbar-header">
           <a class="navbar-brand" href="#">Toja Design</a>
@@ -27,7 +27,7 @@
       </div>
     </nav>
 
-    <div class="no-margin-padding col-md-12">
+    <div onclick="zavrit()"class="no-margin-padding col-md-12">
 
       <div class="velky-block no-margin-padding col-md-8">
         <div class="no-margin-padding col-md-12">
@@ -97,7 +97,18 @@
 
 <script>
 function yolo() {
-  $('#navbar').addClass('clicked');
+  if (  $('#navbar').hasClass('maly-nav')) {
+    $('#navbar').addClass('velky-nav').removeClass('maly-nav');
+  }else {
+    $('#navbar').addClass('maly-nav').removeClass('velky-nav');
+  }
+
+}
+
+function zavrit() {
+  if (  $('#navbar').hasClass('velky-nav')) {
+    $('#navbar').addClass('maly-nav').removeClass('velky-nav');
+  }
 }
 </script>
 
