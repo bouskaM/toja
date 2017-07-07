@@ -65,6 +65,7 @@ body{
 .maly-nav{
  height: 52px;
  margin-bottom: 15px;
+transition: all 450ms cubic-bezier(0.690, 1.650, 0.035, 0.775);
 }
 
 .maly-nav:hover{
@@ -74,6 +75,8 @@ body{
 
 .velky-nav{
   height: 200px;
+  transition: height 1.5s easeOutElastic;
+transition: all 450ms cubic-bezier(0.690, 1.650, 0.035, 0.775);
 }
 
 .modal-vrata-png{
