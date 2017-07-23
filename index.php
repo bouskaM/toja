@@ -55,7 +55,9 @@ $stoly = array_diff(scandir('obrazky/stoly/'), array('..', '.'));
             <ul class="nav navbar-nav">
                 <li class="toja hidden bla"><a href="#">Toja Design</a></li>
                 <li class="onas hidden bla"><a href="#">O nás</a></li>
-                <li class="kontakt hidden bla"><a href="#">Kontakt</a></li>
+                <li class="kontakt hidden bla">
+                    <a href="#test-popup" class="open-popup-link">Kontakt</a>
+                </li>
             </ul>
             <ul class="nav navbar-nav onas-text-parent">
                 <li id="onas-text" class="onas-text hidden">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
@@ -66,6 +68,37 @@ $stoly = array_diff(scandir('obrazky/stoly/'), array('..', '.'));
             </ul>
         </div>
     </nav>
+
+    <div id="test-popup" class="white-popup mfp-hide">
+        <div class="row">
+            <div class="col-md-8">
+                <iframe
+                    width="650"
+                    height="450"
+                    frameborder="0" style="border:0"
+                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAhXlcZwiHC5vPEy9_Nei0EFSyNmbOTVo8&q=Šetelíkova, Praha-Kolovraty" allowfullscreen>
+                </iframe>
+            </div>
+            <div class="col-md-4">
+                <h3>Kontakt</h3>
+                <p><b>Adresa:</b><br>
+                    Šetelíkova 111/17, Praha 10 <br>
+                    Česká Republika, 110 00
+                </p>
+
+                <p><b>Telefon:</b> <br>
+                    +420 777 888 000
+                </p>
+
+                <p><b>Email:</b> <br>
+                    pepazdepa@gmail.com
+                </p>
+
+            </div>
+        </div>
+
+    </div>
+
 </header>
 
 <body class="container">
@@ -245,10 +278,9 @@ $stoly = array_diff(scandir('obrazky/stoly/'), array('..', '.'));
 
     });
 
-    $(document).ready(function() {
+    $(document).ready(function () {
         $("#onas-text").hide().removeClass('hidden');
     });
-
 
 
     $('.magnific-all').each(function () {
@@ -289,6 +321,12 @@ $stoly = array_diff(scandir('obrazky/stoly/'), array('..', '.'));
             preload: [1, 1]
         });
     });
+
+    $('.open-popup-link').magnificPopup({
+        type: 'inline',
+        midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+    });
+
 
 </script>
 

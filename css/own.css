@@ -2,6 +2,20 @@
     outline: 0 !important;
 }
 
+.white-popup {
+    position: relative;
+    background: #252525;;
+    padding: 20px;
+    width: auto;
+    max-width: 1000px;
+    margin: 20px auto;
+    color: #E94B4A;
+}
+.mfp-title {
+    color: #E94B4A;
+    text-align: justify;
+}
+
 .no-margin-padding {
     padding: 0px;
     margin: 0px;
@@ -25,11 +39,15 @@
     -ms-transition: background-color 0.25s ease-out;
     transition: background-color 0.25s ease-out;
     cursor: pointer;
-    color: #E94B4A
+    color: #E94B4A;
 }
 
 .druhy-velky {
     margin-top: 15px;
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
 }
 
 .velky-block:hover {
