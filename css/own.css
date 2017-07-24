@@ -45,6 +45,7 @@ body {
     transition: background-color 0.25s ease-out;
     cursor: pointer;
     color: #E94B4A;
+    margin-bottom: 15px;
 }
 
 .druhy-velky {
@@ -63,6 +64,7 @@ a, a:visited, a:hover, a:active {
 .maly-block {
     background-color: #E94B4A;
     color: black;
+    margin-bottom: 15px;
 }
 
 body {
@@ -229,5 +231,3 @@ span {
         padding: 0;
     }
 }
-
-
