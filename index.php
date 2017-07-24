@@ -111,11 +111,11 @@ tojadesgin@seznam.cz<br/>
                 </p>
 
                 <p><b>Telefon:</b> <br>
-                    +420 777 888 000
+                    +420 602 735 512
                 </p>
 
                 <p><b>Email:</b> <br>
-                    pepazdepa@gmail.com
+                    tojadesgin@seznam.cz
                 </p>
 
             </div>
