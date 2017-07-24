@@ -104,9 +104,10 @@ body {
 .menu-text {
     position: absolute;
     left: 5vw;
-    top: 2vh;
+    top: 1.25vh;
     font-size: 1.5em;
     color: #E94B4A;
+
 }
 
 .tel-text {
@@ -114,7 +115,7 @@ body {
     font-size: 1.4em;
     color: #E94B4A;
     right: 3vw;
-    top: 2vh;
+    top: 1.25vh;
 }
 
 .menu-text:hover {
@@ -156,6 +157,12 @@ body {
     color: #E94B4A;
     font-size: 16px;
 }
+
+.kontakt{
+  margin-left: 250px;
+}
+
+
 
 li#kontakt-text.kontakt-text {
     padding-left: 5%;
