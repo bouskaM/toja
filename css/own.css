@@ -142,9 +142,23 @@ body {
 }
 
 .onas-text-parent {
-    width: 101%;
-    padding: 0 36% 0 36%;
+    width: 100%;
+    padding: 0 15% 0 15%;
+    justify-content: space-between;
+    display: flex;
+    text-align: justify;
 }
+
+
+.kontakt-text {
+    color: #E94B4A;
+    font-size: 16px;
+}
+
+li#kontakt-text.kontakt-text {
+    padding-left: 5%;
+}
+
 
 .maly-nav:hover {
     height: 54px;

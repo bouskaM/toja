@@ -55,6 +55,11 @@ include 'popelniky.php';
                     accumsan, elit sit amet varius semper, nulla mauris mollis quam, tempor suscipit diam nulla vel leo.
                     Vivamus luctus egestas leo. Aliquam erat volutpat.
                 </li>
+                <li id="kontakt-text" class="kontakt-text ">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Curabitur sagittis hendrerit ante. Suspendisse sagittis ultrices augue. Etiam quis quam. Nulla
+                    accumsan, elit sit amet varius semper, nulla mauris mollis quam, tempor suscipit diam nulla vel leo.
+                    Vivamus luctus egestas leo. Aliquam erat volutpat.
+                </li>
             </ul>
         </div>
     </nav>
@@ -342,16 +347,20 @@ t
 <script>
     $(document).ready(function () {
         $("#onas-text").hide().removeClass('hidden');
+        $("#kontakt-text").hide().removeClass('hidden');
     });
 
     function roll() {
         if ($('#navbar').hasClass('maly-nav')) {
             $('#navbar').addClass('velky-nav').removeClass('maly-nav');
             $('.onas-text').removeClass('hidden');
+            $('.kontakt-text').removeClass('hidden');
             $('#onas-text').slideDown(300);
+            $('#kontakt-text').slideDown(300);
         } else {
             $('#navbar').addClass('maly-nav').removeClass('velky-nav');
             $('#onas-text').slideUp(200);
+            $('#kontakt-text').slideUp(200);
         }
 
         if ($('.list-item').hasClass('hidden')) {
@@ -367,6 +376,7 @@ t
                 $('#navbar').addClass('maly-nav').removeClass('velky-nav');
                 $('.list-item').addClass('hidden');
                 $('.onas-text').addClass('hidden');
+                $('.kontakt-text').addClass('hidden');
             }
         }
 
@@ -374,6 +384,7 @@ t
 
     $(document).ready(function () {
         $("#onas-text").hide().removeClass('hidden');
+        $("#kontakt-text").hide().removeClass('hidden');
     });
 
 
