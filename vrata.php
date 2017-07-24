@@ -1,6 +1,6 @@
 <?php
 
-
+// vrata
 $vrata_all = array_diff(scandir('obrazky/vrata/'), array('..', '.', '.DS_Store'));
 $vrata_imgs = array();
 $vrata_text = array();
@@ -22,9 +22,5 @@ foreach ($vrata_all as $v) {
     }
 }
 
-$stoly = array_diff(scandir('obrazky/stoly/'), array('..', '.'));
-
-
-
-
 ?>
+

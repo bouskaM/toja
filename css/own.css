@@ -1,3 +1,8 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
 *:focus {
     outline: 0 !important;
 }
@@ -88,6 +93,30 @@ body {
     position: absolute;
     left: 2%;
     top: 1em;
+}
+
+.hamburger-icon:hover {
+    cursor: pointer;
+}
+
+.menu-text {
+    position: absolute;
+    left: 5vw;
+    top: 2vh;
+    font-size: 1.5em;
+    color: #E94B4A;
+}
+
+.tel-text {
+    position: absolute;
+    font-size: 1.4em;
+    color: #E94B4A;
+    right: 3vw;
+    top: 2vh;
+}
+
+.menu-text:hover {
+    cursor: pointer;
 }
 
 .nav {
