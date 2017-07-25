@@ -40,53 +40,50 @@ include 'popelniky.php';
 </head>
 
 <header>
-    <nav id="navbar" class="navbar navbar-inverse maly-nav">
+    <nav id="navbar"  onclick="roll()" class="navbar navbar-inverse maly-nav">
         <div class="container-fluid">
-            <img src="obrazky/hamburger.png" onclick="roll()" class="hamburger-icon">
-            <div class="menu-text" onclick="roll()">Menu</div>
+            <img src="obrazky/hamburger.png" class="hamburger-icon">
+            <div class="menu-text">Menu</div>
             <div class="tel-text">tel: +420 602 735 512</div>
             <ul class="nav navbar-nav">
+
                 <li class="onas hidden list-item"><a href="#">O nás</a></li>
                 <li class="kontakt hidden list-item">
                     <a href="#test-popup" class="open-popup-link">Kontakt</a>
                 </li>
+                
             </ul>
             <ul class="nav navbar-nav onas-text-parent">
+              <div class="col-md-12 no-margin-padding">
+                <div class="col-md-9">
                 <li id="onas-text" class="onas-text hidden">Vratovou technikou se zabýváme již od roku 1993, kdy jsme patřili k průkopníkům v oboru na našem trhu.<br/>
                    Firma se od počátku zabývá:
-
-výrobou: venkovních bran křídlových, posuvných na kolejnici, nesených <br/> a teleskopických.
-
-Vstupních branek atypických výplních plotů a souvisejících zámečnických prací.<br/>
-
-Ocelových schodišť a to i točitých, zábradlí balkonů a teras. <br/>
-
-A jinou zakázkovou výrobou z kovů.
-
-Dodávkou a montáží:
-
-Elektrických pohonů na dálkové ovládání<br/>
-
-Garážových vrat: výklopných, sekčních, posuvných do boku a rolovacích.
-
-Průmyslových vrat: sekčních,<br/> rolovacích, skládacích a protipožárních posuvných.
-
-Vyrovnávacích můstků a těsnících límců nakládacích <br/>míst
-
-Automatických vstupních dveří
-
-Rolovacích mříží
+                   výrobou: venkovních bran křídlových, posuvných na kolejnici, nesených  a teleskopických.
+                   Vstupních branek atypických výplních plotů a souvisejících zámečnických prací.
+                   Ocelových schodišť a to i točitých, zábradlí balkonů a teras.
+                   A jinou zakázkovou výrobou z kovů.
+                   Dodávkou a montáží:
+                   Elektrických pohonů na dálkové ovládání
+                   Garážových vrat: výklopných, sekčních, posuvných do boku a rolovacích.
+                   Průmyslových vrat: sekčních, rolovacích, skládacích a protipožárních posuvných.
+                   Vyrovnávacích můstků a těsnících límců nakládacích míst
+                   Automatických vstupních dveří
+                   Rolovacích mříží
                 </li>
-                <li id="kontakt-text" class="kontakt-text ">
-
+              </div>
+                <div class="col-md-3">
+                <li id="kontakt-text" class="kontakt-text">
+                  <a href="#test-popup" class="open-popup-link kontakt-udaje">
                   Tomáš Jakl<br/>
-Dveřní a vratové systémy<br/>
-Bečovská 939<br/>
-Praha 10 - Uhříněves<br/>
-104 00<br/>
-tojadesgin@seznam.cz<br/>
-
+                  Dveřní a vratové systémy<br/>
+                  Bečovská 939<br/>
+                  Praha 10 - Uhříněves<br/>
+                  104 00<br/>
+                  tojadesgin@seznam.cz<br/>
+                </a>
                 </li>
+                </div>
+              </div>
             </ul>
         </div>
     </nav>
@@ -102,7 +99,8 @@ tojadesgin@seznam.cz<br/>
                     allowfullscreen>
                 </iframe>
             </div>
-            <div class="col-md-4">
+            <div  class="col-md-4">
+
                 <h3>Kontakt</h3>
                 <p><b>Adresa:</b><br>
                     Bečovská 939<br>
@@ -117,7 +115,6 @@ tojadesgin@seznam.cz<br/>
                 <p><b>Email:</b> <br>
                     tojadesgin@seznam.cz
                 </p>
-
             </div>
         </div>
 
@@ -262,7 +259,7 @@ tojadesgin@seznam.cz<br/>
                     }
                     ?>
                 </div>
-
+            <a href="#" class="just-link">
                 <div class="no-margin-padding col-md-12">
                     <div class="text-center col-md-12">
                         <div>
@@ -274,6 +271,7 @@ tojadesgin@seznam.cz<br/>
                         <p class="popis">Každý stolek je naprostý originál, ručně vyrobený z bloku spalovacího motoru. Stoly jsou nalakovány kvalitním práškovým lakem s vysokou odolností proti poškození. Vrchní deska je z lepeného bezpečnostního skla o tloušťce 10mm. Osvětlení úspornými LED diodami napájenými bateriemi.</p>
                     </div>
                 </div>
+              </a>
             </div>
         </div>
 
@@ -292,7 +290,7 @@ tojadesgin@seznam.cz<br/>
                     }
                     ?>
                 </div>
-
+            <a href="#" class="just-link">
                 <div class="no-margin-padding col-md-12">
                     <div class="text-center col-md-12">
                         <div>
@@ -304,6 +302,7 @@ tojadesgin@seznam.cz<br/>
                         <p class="popis">Každý popelník je naprostý originál, ručně vyrobený z turbodmychadla spalovacího motoru. Popelníky jsou nalakovány kvalitním práškovým lakem s vysokou odolností proti poškození.</p>
                     </div>
                 </div>
+              </a>
             </div>
         </div>
 
@@ -322,7 +321,7 @@ tojadesgin@seznam.cz<br/>
                     }
                     ?>
                 </div>
-
+            <a href="#" class="just-link">
                 <div class="no-margin-padding col-md-12">
                     <div class="text-center col-md-12">
                         <div>
@@ -338,6 +337,7 @@ nalakovány kvalitním práškovým lakem s vysokou odolností proti poškozen�
 oceli, nebo pochromovány.</p>
                     </div>
                 </div>
+              </a>
             </div>
         </div>
 
@@ -356,7 +356,7 @@ oceli, nebo pochromovány.</p>
                     }
                     ?>
                 </div>
-
+            <a href="#" class="just-link">
                 <div class="no-margin-padding col-md-12">
                     <div class="text-center col-md-12">
                         <div>
@@ -368,6 +368,7 @@ oceli, nebo pochromovány.</p>
                         <p class="popis">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
                     </div>
                 </div>
+              </a>
             </div>
         </div>
     </div>

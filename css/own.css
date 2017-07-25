@@ -63,8 +63,13 @@ a, a:visited, a:hover, a:active {
 
 .maly-block {
     background-color: #E94B4A;
-    color: black;
+    color: black !important;
     margin-bottom: 15px;
+}
+
+.maly-block:hover {
+      background-color: #252525 !important;
+      color: #E94B4A !important;
 }
 
 body {
@@ -104,7 +109,7 @@ body {
 .menu-text {
     position: absolute;
     left: 5vw;
-    top: 1.25vh;
+    top: 1.35vh;
     font-size: 1.5em;
     color: #E94B4A;
 
@@ -115,7 +120,7 @@ body {
     font-size: 1.4em;
     color: #E94B4A;
     right: 3vw;
-    top: 1.25vh;
+    top: 1.35vh;
 }
 
 .menu-text:hover {
@@ -158,9 +163,16 @@ body {
     font-size: 16px;
 }
 
-.kontakt{
-  margin-left: 250px;
+.kontakt-udaje{
+  color: #E94B4A !important;
+  font-size: 16px;
 }
+
+.kontakt-udaje:hover{
+  text-decoration: none;
+}
+
+
 
 
 
