@@ -46,34 +46,41 @@ include 'popelniky.php';
             <div class="menu-text">Menu</div>
             <div class="tel-text">tel: +420 602 735 512</div>
             <ul class="nav navbar-nav">
-
-                <li class="onas hidden list-item"><a href="#">O nás</a></li>
-                <li class="kontakt hidden list-item">
+              <div class="col-md-12">
+                <div class="col-md-8 text-center">
+                <li class="nav-nadpis onas hidden list-item"><a href="#">O nás</a></li>
+              </div>
+              <div class="col-md-4 text-left">
+                <li class="nav-nadpis kontakt hidden list-item">
                     <a href="#test-popup" class="open-popup-link">Kontakt</a>
                 </li>
-                
+              </div>
+              </div>
             </ul>
             <ul class="nav navbar-nav onas-text-parent">
-              <div class="col-md-12 no-margin-padding">
+              <div class="no-margin-padding">
+                <div class="col-md-12">
                 <div class="col-md-9">
-                <li id="onas-text" class="onas-text hidden">Vratovou technikou se zabýváme již od roku 1993, kdy jsme patřili k průkopníkům v oboru na našem trhu.<br/>
-                   Firma se od počátku zabývá:
-                   výrobou: venkovních bran křídlových, posuvných na kolejnici, nesených  a teleskopických.
-                   Vstupních branek atypických výplních plotů a souvisejících zámečnických prací.
-                   Ocelových schodišť a to i točitých, zábradlí balkonů a teras.
-                   A jinou zakázkovou výrobou z kovů.
-                   Dodávkou a montáží:
-                   Elektrických pohonů na dálkové ovládání
-                   Garážových vrat: výklopných, sekčních, posuvných do boku a rolovacích.
-                   Průmyslových vrat: sekčních, rolovacích, skládacích a protipožárních posuvných.
-                   Vyrovnávacích můstků a těsnících límců nakládacích míst
-                   Automatických vstupních dveří
-                   Rolovacích mříží
-                </li>
-              </div>
-                <div class="col-md-3">
-                <li id="kontakt-text" class="kontakt-text">
-                  <a href="#test-popup" class="open-popup-link kontakt-udaje">
+                    <li id="onas-text" class="onas-text hidden">
+                       Vratovou technikou se zabýváme již od roku 1993, kdy jsme patřili k průkopníkům v oboru na našem trhu.<br/>
+                       Firma se od počátku zabývá:
+                       výrobou: venkovních bran křídlových, posuvných na kolejnici, nesených  a teleskopických.
+                       Vstupních branek atypických výplních plotů a souvisejících zámečnických prací.
+                       Ocelových schodišť a to i točitých, zábradlí balkonů a teras.
+                       A jinou zakázkovou výrobou z kovů.
+                       Dodávkou a montáží:
+                       Elektrických pohonů na dálkové ovládání
+                       Garážových vrat: výklopných, sekčních, posuvných do boku a rolovacích.
+                       Průmyslových vrat: sekčních, rolovacích, skládacích a protipožárních posuvných.
+                       Vyrovnávacích můstků a těsnících límců nakládacích míst
+                       Automatických vstupních dveří
+                       Rolovacích mříží
+                    </li>
+                </div>
+
+                <li class="kontakt-text">
+                  <div class="col-md-3">
+                  <a id="kontakt-text"  href="#test-popup" class="open-popup-link kontakt-udaje hidden">
                   Tomáš Jakl<br/>
                   Dveřní a vratové systémy<br/>
                   Bečovská 939<br/>
@@ -81,8 +88,9 @@ include 'popelniky.php';
                   104 00<br/>
                   tojadesgin@seznam.cz<br/>
                 </a>
+            </div>
                 </li>
-                </div>
+              </div>
               </div>
             </ul>
         </div>

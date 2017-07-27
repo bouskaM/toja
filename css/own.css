@@ -157,10 +157,20 @@ body {
     text-align: justify;
 }
 
+.kontakt{
+  margin-left: 1vh;
+}
+
+.nav-nadpis{
+  font-size: 18px;
+  color: white;
+}
+
 
 .kontakt-text {
-    color: #E94B4A;
-    font-size: 16px;
+  color: #E94B4A;
+  font-size: 16px;
+  padding: auto;
 }
 
 .kontakt-udaje{
