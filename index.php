@@ -728,6 +728,49 @@ t
         });
     });
 
+
+
+
+
+
+
+    var magnificPopup = null;
+jQuery(document).ready(function ($) {
+    var $img = $(".img-link");
+    if ($img.length) {
+        $img.magnificPopup({
+            type: 'image',
+            preloader: true,
+            closeOnContentClick: true,
+            enableEscapeKey: false,
+            showCloseBtn: true,
+            removalDelay: 100,
+            mainClass: 'mfp-fade',
+            tClose: '',
+            callbacks: {
+                open: function () {
+                    History.Adapter.bind(window, 'statechange', closePopup);
+                    History.pushState({ url: document.location.href }, document.title, "?large");
+                    $(window).on('resize', closePopup);
+                    magnificPopup = this;
+                },
+                close: function () {
+                    $(window).unbind('statechange', closePopup)
+                        .off('resize', closePopup);
+                    var State = History.getState();
+                    History.replaceState(null, document.title, State.data["url"]);
+                    magnificPopup = null;
+                }
+            }
+        });
+    }
+});
+
+function closePopup () {
+    if (magnificPopup != null)
+        magnificPopup.close();
+}
+
 </script>
 
 
