@@ -73,7 +73,16 @@ a, a:visited, a:hover, a:active {
 }
 
 body {
-    background-color: #3F3E46;
+
+
+  background:
+    /* top, transparent black, faked with gradient */
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    /* bottom, image */
+    url('carbon1.png');
 }
 
 .popis {
