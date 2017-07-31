@@ -23,4 +23,3 @@ foreach ($tezitko_all as $v) {
 }
 
 ?>
-

@@ -44,6 +44,7 @@ include 'popelniky.php';
         <div class="container-fluid">
             <img src="obrazky/hamburger.png" class="hamburger-icon">
             <div class="menu-text">Menu</div>
+          <!--  <div class="logo"><img src="logo.jpeg" alt="logo"></div> -->
             <div class="tel-text">tel: +420 602 735 512</div>
             <ul id="nav-textace" class="nav navbar-nav">
               <div id="nav-textace-div"  class="col-md-12">
@@ -57,10 +58,10 @@ include 'popelniky.php';
                      výrobou: venkovních bran křídlových, posuvných na kolejnici, nesených  a teleskopických.
                      Vstupních branek atypických výplních plotů a souvisejících zámečnických prací.
                      Ocelových schodišť a to i točitých, zábradlí balkonů a teras.
-                     A jinou zakázkovou výrobou z kovů.
+                     A jinou zakázkovou výrobou z kovů.<br/>
                      Dodávkou a montáží:
-                     Elektrických pohonů na dálkové ovládání
-                     Garážových vrat: výklopných, sekčních, posuvných do boku a rolovacích.
+                     Elektrických pohonů na dálkové ovládání<br/>
+                     Garážových vrat: výklopných, sekčních, posuvných do boku a rolovacích.</br>
                      Průmyslových vrat: sekčních, rolovacích, skládacích a protipožárních posuvných.
                      Vyrovnávacích můstků a těsnících límců nakládacích míst
                      Automatických vstupních dveří
@@ -120,17 +121,23 @@ include 'popelniky.php';
             <div  class="col-md-4">
 
                 <h3>Kontakt</h3>
-                <p><b>Adresa:</b><br>
+                <p><b>ADRESA:</b><br>
                     Bečovská 939<br>
                     Praha 10 - Uhříněves<br>
                     Česká Republika, 104 00
                 </p>
 
-                <p><b>Telefon:</b> <br>
+                <p><b>SÍDLO FIRMY:</b><br>
+                    Tomáš Jakl<br>
+                    Velký Třebešov 33<br>
+                    552 02
+                </p>
+
+                <p><b>TELEFON:</b> <br>
                     +420 602 735 512
                 </p>
 
-                <p><b>Email:</b> <br>
+                <p><b>EMAIL:</b> <br>
                     tojadesgin@seznam.cz
                 </p>
             </div>
@@ -164,20 +171,12 @@ include 'popelniky.php';
                 <div class="no-margin-padding col-md-12">
                     <div class="text-center no-margin-padding col-md-6">
                         <div>
-                            <h2>Vrata</h2>
+                            <h1><b>Vrata</h1></b>
                         </div>
                     </div>
 
                     <div class="text-justify no-margin-padding col-md-6">
-                        <p class="popis">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sagittis
-                            hendrerit ante. Suspendisse sagittis ultrices augue. Etiam quis quam. Nulla accumsan, elit
-                            sit
-                            amet varius semper, nulla mauris mollis quam, tempor suscipit diam nulla vel leo. Vivamus
-                            luctus
-                            egestas leo. Aliquam erat volutpat. Suspendisse sagittis ultrices augue. Cum sociis natoque
-                            penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis aute irure dolor in
-                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Integer
-                            malesuada.</p>
+                        <p class="popis">Garážová vrata značky HORMANN. </p>
                     </div>
                 </div>
             </a>
@@ -201,20 +200,12 @@ include 'popelniky.php';
                 <div class="no-margin-padding col-md-12">
                     <div class="text-center no-margin-padding col-md-6">
                         <div>
-                            <h2>Schody</h2>
+                            <h1><b>Schody</b></h1>
                         </div>
                     </div>
 
                     <div class="text-justify no-margin-padding col-md-6">
-                        <p class="popis">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sagittis
-                            hendrerit ante. Suspendisse sagittis ultrices augue. Etiam quis quam. Nulla accumsan, elit
-                            sit
-                            amet varius semper, nulla mauris mollis quam, tempor suscipit diam nulla vel leo. Vivamus
-                            luctus
-                            egestas leo. Aliquam erat volutpat. Suspendisse sagittis ultrices augue. Cum sociis natoque
-                            penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis aute irure dolor in
-                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Integer
-                            malesuada.</p>
+                        <p class="popis">Schodiště rovné nebo točité z pororoštu nebo ocelového plechu. Povrchová úprava na přání: základní nátěr, žárový zinek, prášková barva.</p>
                     </div>
                 </div>
             </a>
@@ -239,20 +230,12 @@ include 'popelniky.php';
                 <div class="no-margin-padding col-md-12">
                     <div class="text-center no-margin-padding col-md-6">
                         <div>
-                            <h2>Brány</h2>
+                            <h1><b>Brány</b></h1>
                         </div>
                     </div>
 
                     <div class="text-justify no-margin-padding col-md-6">
-                        <p class="popis">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sagittis
-                            hendrerit ante. Suspendisse sagittis ultrices augue. Etiam quis quam. Nulla accumsan, elit
-                            sit
-                            amet varius semper, nulla mauris mollis quam, tempor suscipit diam nulla vel leo. Vivamus
-                            luctus
-                            egestas leo. Aliquam erat volutpat. Suspendisse sagittis ultrices augue. Cum sociis natoque
-                            penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis aute irure dolor in
-                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Integer
-                            malesuada.</p>
+                        <p class="popis">Brány vám vyrobíme přesně na míru. Buď samotný rám, nebo s výplní dle vašich požadavků. Povrchová úprava na přání: základní nátěr, žárový zinek, prášková barva. </p>
                     </div>
                 </div>
             </a>
@@ -281,43 +264,12 @@ include 'popelniky.php';
                 <div class="no-margin-padding col-md-12">
                     <div class="text-center col-md-12">
                         <div>
-                            <h2>Motostoly</h2>
+                            <h1><b>Motostoly</b></h1>
                         </div>
                     </div>
 
                     <div class="text-justify col-md-12">
                         <p class="popis">Každý stolek je naprostý originál, ručně vyrobený z bloku spalovacího motoru. Stoly jsou nalakovány kvalitním práškovým lakem s vysokou odolností proti poškození. Vrchní deska je z lepeného bezpečnostního skla o tloušťce 10mm. Osvětlení úspornými LED diodami napájenými bateriemi.</p>
-                    </div>
-                </div>
-              </a>
-            </div>
-        </div>
-
-        <div class="maly-bez-margin-padding magnific-popelniky no-right-padding col-md-12">
-            <div class="maly-block no-margin-padding col-md-12">
-                <div class="no-margin-padding col-md-12">
-                    <a href="obrazky/popelniky/<?php echo $popelniky_imgs[0] ?>"
-                       data-title="<?php echo $popelniky_text[0] ?>"
-                       class="item">
-                        <img src="obrazky/popelniky/<?php echo $popelniky_imgs[0] ?>" class="no-margin-padding stul">
-                    </a>
-
-                    <?php
-                    for ($i = 1; $i < sizeof($popelniky_imgs); $i++) {
-                        echo " <a href=\"obrazky/popelniky/$popelniky_imgs[$i]\" data-title=\"$popelniky_text[$i]\" class='item'></a>";
-                    }
-                    ?>
-                </div>
-            <a href="#" class="just-link">
-                <div class="no-margin-padding col-md-12">
-                    <div class="text-center col-md-12">
-                        <div>
-                            <h2>Popelníky</h2>
-                        </div>
-                    </div>
-
-                    <div class="text-justify col-md-12">
-                        <p class="popis">Každý popelník je naprostý originál, ručně vyrobený z turbodmychadla spalovacího motoru. Popelníky jsou nalakovány kvalitním práškovým lakem s vysokou odolností proti poškození.</p>
                     </div>
                 </div>
               </a>
@@ -343,7 +295,7 @@ include 'popelniky.php';
                 <div class="no-margin-padding col-md-12">
                     <div class="text-center col-md-12">
                         <div>
-                            <h2>Designové doplňky</h2>
+                            <h2><b>Designové doplňky</b></h2>
                         </div>
                     </div>
 
@@ -359,41 +311,10 @@ oceli, nebo pochromovány.</p>
             </div>
         </div>
 
-        <div class="maly-bez-margin-padding magnific-vesak no-right-padding col-md-12">
-            <div class="maly-block no-margin-padding col-md-12">
-                <div class="no-margin-padding col-md-12">
-                    <a href="obrazky/vesak/<?php echo $vesak_imgs[0] ?>"
-                       data-title="<?php echo $vesak_text[0] ?>"
-                       class="item">
-                        <img src="obrazky/vesak/<?php echo $vesak_imgs[0] ?>" class="no-margin-padding stul">
-                    </a>
-
-                    <?php
-                    for ($i = 1; $i < sizeof($vesak_imgs); $i++) {
-                        echo " <a href=\"obrazky/vesak/$vesak_imgs[$i]\" data-title=\"$vesak_text[$i]\" class='item'></a>";
-                    }
-                    ?>
-                </div>
-            <a href="#" class="just-link">
-                <div class="no-margin-padding col-md-12">
-                    <div class="text-center col-md-12">
-                        <div>
-                            <h2>Věšáky</h2>
-                        </div>
-                    </div>
-
-                    <div class="text-justify col-md-12">
-                        <p class="popis">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-                    </div>
-                </div>
-              </a>
-            </div>
-        </div>
     </div>
 
 </div>
 
-t
 <script>
     $(document).ready(function () {
         $("#onas-text").hide().removeClass('hidden');

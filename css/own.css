@@ -14,10 +14,10 @@ body {
     width: auto;
     max-width: 1000px;
     margin: 20px auto;
-    color: #E94B4A;
+    color: #f90202;
 }
 .mfp-title {
-    color: #E94B4A;
+    color: #f90202;
     text-align: justify;
 }
 
@@ -44,7 +44,7 @@ body {
     -ms-transition: background-color 0.25s ease-out;
     transition: background-color 0.25s ease-out;
     cursor: pointer;
-    color: #E94B4A;
+    color: #f90202;
     margin-bottom: 15px;
 }
 
@@ -57,19 +57,19 @@ a, a:visited, a:hover, a:active {
 }
 
 .velky-block:hover {
-    background-color: #E94B4A;
+    background-color: #f90202;
     color: black;
 }
 
 .maly-block {
-    background-color: #E94B4A;
+    background-color: #f90202;
     color: black !important;
     margin-bottom: 15px;
 }
 
 .maly-block:hover {
       background-color: #252525 !important;
-      color: #E94B4A !important;
+      color: #f90202 !important;
 }
 
 body {
@@ -82,13 +82,15 @@ body {
       rgba(0, 0, 0, 0.6)
     ),
     /* bottom, image */
-    url('carbon1.png');
+    url('https://s-media-cache-ak0.pinimg.com/originals/45/e6/85/45e685dff68896db39f13b83a237b0fc.jpg');
 }
 
 .popis {
     padding: 10px;
     margin: 5px;
     text-align: center;
+    color: white;
+    font-size: 20px;
 }
 
 .no-right-padding {
@@ -120,14 +122,26 @@ body {
     left: 55px;
     top: 12px;
     font-size: 1.5em;
-    color: #E94B4A;
+    color: #f90202;
 
+}
+
+.logo{
+  position: absolute;
+  color: #f90202;
+  right: 48%;
+  top: 12px;
+}
+
+.logo img{
+  height: 48px;
+  width: auto;
 }
 
 .tel-text {
     position: absolute;
     font-size: 1.4em;
-    color: #E94B4A;
+    color: #f90202;
     right: 3vw;
     top: 12px;
 }
@@ -153,9 +167,10 @@ body {
 }
 
 .onas-text {
-    color: #E94B4A;
-    font-size: 16px;
+    color: white;
+    font-size: 20px;
     padding: auto;
+    padding-bottom: 50px;
 }
 
 .onas-text-parent {
@@ -171,23 +186,23 @@ body {
 }
 
 .nav-nadpis{
-  font-size: 18px;
-  color: white;
+  font-size: 25px;
+  color: #f90202;
 }
 
 #nav-textace{
   padding-top: 5px;
 }
 
-.kontakt-text {
-  color: #E94B4A;
-  font-size: 16px;
+.kontakt-text{
+  color: white;
+  font-size: 20px;
   padding: auto;
 }
 
 .kontakt-udaje{
-  color: #E94B4A !important;
-  font-size: 16px;
+  color: white !important;
+  font-size: 20px;
 }
 
 .kontakt-udaje:hover{
@@ -209,7 +224,7 @@ li#kontakt-text.kontakt-text {
 }
 
 .velky-nav {
-    height: 240px;
+    height: auto;
     transition: height 1.5s easeOutElastic;
     transition: all 450ms cubic-bezier(0.690, 1.650, 0.035, 0.775);
     word-wrap: break-word;
@@ -277,7 +292,7 @@ span {
 
 @media (max-width: 1340px) {
   .velky-nav {
-      height: 300px;
+      height: auto;
       transition: height 1.5s easeOutElastic;
       transition: all 450ms cubic-bezier(0.690, 1.650, 0.035, 0.775);
       word-wrap: break-word;
@@ -303,7 +318,7 @@ span {
    padding-right: 0;
  }
   .velky-nav{
-    height: 420px;
+    height: auto;
   }
   .onas-text-parent {
       width: 100%;
@@ -316,7 +331,7 @@ span {
 
 @media (max-width: 909px) {
   .velky-nav{
-    height: 440px;
+    height: auto;
   }
 
   #onas-text{
